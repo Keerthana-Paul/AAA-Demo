@@ -23,8 +23,8 @@ view: aaa_tracking {
     sql: ${TABLE}.PTA ;;
   }
   dimension: work_order_number {
-    type: number
-    sql: ${TABLE}.work_order_number ;;
+    type: string
+    sql: cast(${TABLE}.work_order_number) as string ;;
   }
   measure: count {
     type: count

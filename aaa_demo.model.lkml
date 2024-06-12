@@ -17,6 +17,6 @@ explore: aaa_master{
   join: aaa_tracking {
     type: left_outer
     relationship: many_to_one
-    sql_on: ${aaa_master.work_order_number} = ${aaa_tracking.partner_id} ;;
+    sql_on: ${aaa_master.work_order_number} = ${aaa_tracking.work_order_number} ;;
   }
 }

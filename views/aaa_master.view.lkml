@@ -69,11 +69,11 @@ view: aaa_master {
   }
   dimension: work_order_number {
     type: string
-    sql: ${TABLE}.work_order_number ;;
+    sql: cast(${TABLE}.work_order_number) as string ;;
   }
   dimension: work_order_number_5 {
-    type: number
-    sql: ${TABLE}.work_order_number_5 ;;
+    type: string
+    sql: cast(${TABLE}.work_order_number_5) as string ;;
   }
   measure: count {
     type: count
