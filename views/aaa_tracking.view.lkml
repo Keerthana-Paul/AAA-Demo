@@ -24,7 +24,7 @@ view: aaa_tracking {
   }
   dimension: work_order_number {
     type: string
-    sql: cast(${TABLE}.work_order_number) as string ;;
+    sql: cast(${TABLE}.work_order_number as string) ;;
   }
   measure: count {
     type: count
