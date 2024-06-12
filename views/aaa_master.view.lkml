@@ -68,7 +68,7 @@ view: aaa_master {
     sql: ${TABLE}.Vehicle_Id ;;
   }
   dimension: work_order_number {
-    type: number
+    type: string
     sql: ${TABLE}.work_order_number ;;
   }
   dimension: work_order_number_5 {
