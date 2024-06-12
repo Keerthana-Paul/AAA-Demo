@@ -37,5 +37,9 @@ view: aaa_incident_details {
   }
   measure: count {
     type: count
+    drill_fields: [detail*]
   }
+  set: detail {
+    fields: [vehicle_id,member_id,description_of_the_problem_code,breakdown_location,state,country]}
+
 }
