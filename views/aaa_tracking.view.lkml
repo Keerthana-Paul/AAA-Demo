@@ -13,6 +13,11 @@ view: aaa_tracking {
     type: string
     sql: ${TABLE}.Partner_Longitude ;;
   }
+  dimension: partner_location {
+    type: location
+    sql_latitude: ${TABLE}.Partner_Latitude ;;
+    sql_longitude: ${TABLE}.Partner_Longitude ;;
+  }
   dimension: pta {
     type: number
     sql: ${TABLE}.PTA ;;

@@ -9,6 +9,11 @@ view: aaa_incident_details {
     type: number
     sql: ${TABLE}.breakdown_location_longitude ;;
   }
+  dimension: breakdown_location {
+    type: location
+    sql_latitude: ${TABLE}.breakdown_location_latitude ;;
+    sql_longitude: ${TABLE}.breakdown_location_longitude ;;
+  }
   dimension: country {
     type: string
     map_layer_name: countries
