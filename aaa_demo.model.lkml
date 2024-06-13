@@ -20,3 +20,5 @@ explore: aaa_master{
     sql_on: ${aaa_master.work_order_number} = ${aaa_tracking.work_order_number} ;;
   }
 }
+
+explore: aaa_master_final {}
