@@ -22,3 +22,5 @@ explore: aaa_master{
 }
 
 explore: aaa_master_final {}
+
+explore: migration {}
