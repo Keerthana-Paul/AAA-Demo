@@ -3,6 +3,7 @@ view: aaa_vehicle_details {
 
   dimension: member_id {
     type: string
+    primary_key: yes
     sql: ${TABLE}.Member_Id ;;
   }
   dimension: vehice_type {

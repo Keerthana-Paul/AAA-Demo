@@ -25,6 +25,7 @@ view: aaa_incident_details {
   }
   dimension: member_id {
     type: string
+    primary_key: yes
     sql: ${TABLE}.Member_Id ;;
   }
   dimension: state {

@@ -3,6 +3,7 @@ view: aaa_tracking {
 
   dimension: partner_id {
     type: string
+    primary_key: yes
     sql: ${TABLE}.Partner_ID ;;
   }
   dimension: partner_latitude {
