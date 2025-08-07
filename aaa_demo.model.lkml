@@ -21,4 +21,6 @@ explore: aaa_master{
   }
 }
 
-explore: aaa_master_final {}
+explore: aaa_master_final {
+  label: "Master - Final"
+}
