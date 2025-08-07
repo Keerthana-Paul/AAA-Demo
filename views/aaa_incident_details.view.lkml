@@ -3,6 +3,7 @@ view: aaa_incident_details {
 
   dimension: breakdown_location_latitude {
     type: number
+    hidden: yes
     sql: ${TABLE}.breakdown_location_latitude ;;
   }
   dimension: breakdown_location_longitude {
