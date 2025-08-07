@@ -12,6 +12,7 @@ view: aaa_vehicle_details {
   }
   dimension: vehicle_id {
     type: string
+    hidden: yes
     sql: ${TABLE}.Vehicle_Id ;;
   }
   measure: count {
