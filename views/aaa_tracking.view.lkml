@@ -1,4 +1,5 @@
 view: aaa_tracking {
+  view_label: "AAA Tracking"
   sql_table_name: `sqsh-developer-pocs.aaa_demo.aaa_tracking` ;;
 
   dimension: partner_id {
