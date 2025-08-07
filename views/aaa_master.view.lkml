@@ -25,7 +25,6 @@ view: aaa_master {
   }
   dimension: member_id {
     type: string
-    hidden: yes
     primary_key: yes
     sql: ${TABLE}.Member_Id ;;
   }

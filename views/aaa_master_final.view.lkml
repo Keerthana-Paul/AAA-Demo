@@ -95,6 +95,7 @@ view: aaa_master_final {
   measure: avg_pta_predicted {
     type: average
     sql: ${pta_truck_predicted} ;;
+    value_format: "0.##"
   }
   measure: avg_pta {
     type: average
